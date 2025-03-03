@@ -4,7 +4,7 @@
 
 int main() {
 
-    int grade = 70;
+    int grade = 90;
 
     switch (grade) {
       case 86 ... 100:
@@ -16,12 +16,16 @@ int main() {
       case 52 ... 71:
         printf("C \n");
         break;
-      case 0 ... 51 :
+      case 40 ... 51 :
+        printf("D \n");
+        break;
+      case 0 ... 39 :
         printf("D \n");
         break;
        default:
-         printf("F \n");
+         printf("Please enter a correct value \n");
          break;
     }
 
+    return 0;
 }

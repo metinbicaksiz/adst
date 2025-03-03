@@ -6,10 +6,10 @@ void	ft_putchar(char c) {
 }
 
 void	ft_print_alphabet(void) {
-	char i = 'a';
-	while(i <= 'z') {
+	char i = 'z';
+	while(i >= 'a') {
 		ft_putchar(i);
-		i++;
+		i--;
 	}
 }
 

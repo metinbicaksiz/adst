@@ -1,14 +1,11 @@
 #include <stdio.h>
 
 int main() {
-    // printf("Hello world!\n");
+/*
+  please write a function that prints your name and the school details
+  on the screen!
+ */
 
-    int scores = 574;
-    int sts = 15;
-
-    float sum = (float) scores / sts;
-
-    printf("my result is: %.2f \n", sum);
 
     return 0;
 }
