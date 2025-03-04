@@ -9,8 +9,7 @@ int main() {
         Name   : Alexandra Abramov
         DOB    : July 14, 1975
         School : Gobind Sarvar
-     */
-
+     */printf("Name: Mantej Singh\nDOB   : Oct 9, 2009 \nSchool : Gobind Sarvar\n");
 
     return 0;
 }
