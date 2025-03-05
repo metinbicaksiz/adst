@@ -20,5 +20,13 @@ Sum of the above two integers = 63
 
 
      printf("Sum of the above two integers = %d\n", sum);
+
+     int multiply = num1 * num2;
+     float divide = (float)num1 / num2;
+
+     printf("The multiplication is: %ds\n", multiply);
+     printf("The division is: %.2f\n", divide);
+
+
     return 0;
 }
