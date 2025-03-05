@@ -11,6 +11,9 @@ int main() {
         School : Gobind Sarvar
      */
 
+     printf ("Name      : Amaanat\n");
+        printf ("DOB    : March 28, 2008\n");
+        printf ("School : Gobind Sarvar\n");
 
     return 0;
 }
