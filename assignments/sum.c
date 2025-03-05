@@ -19,5 +19,11 @@ int main() {
     sum = num1 + num2;
     printf("The sum is: %d\n", sum);
 
+    int multiply = num1 * num2;
+    float divide = (float)num1 / num2;
+
+    printf("The multiplication is: %d\n", multiply);
+    printf("The division is: %.2f\n", divide);
+
     return 0;
 }
