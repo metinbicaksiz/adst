@@ -9,7 +9,14 @@ int main() {
     Expected Output:
 Sum of the above two integers = 63
      */
+    int num1 = 25;
+    int num2 = 64;
+    int sum;
 
+    printf("The first number is: %d\n", num1);
+    printf("The second number is: %d\n", num2);
+    sum = num1 + num2;
+    printf("Sum of the above two number is = %d\n", sum);
 
     return 0;
 }
