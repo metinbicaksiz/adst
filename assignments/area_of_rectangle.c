@@ -10,5 +10,12 @@ int main() {
 
    */
 
+  int height = 7;
+  int width = 5;
+
+  int area = height * width;
+
+  printf("The height is: %d and the width is %d\nThe area is %d\n", height, width, area);
+
   return 0;
 }
