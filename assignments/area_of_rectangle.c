@@ -18,5 +18,6 @@ int main() {
   printf("Area of the rectangle= %d square inches\n", area);
 
 
+
   return 0;
 }
