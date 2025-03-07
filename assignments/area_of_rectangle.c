@@ -9,6 +9,12 @@ int main() {
       Area of the rectangle = 35 square inches
 
    */
+   int height = 7, width = 5;
+   int perimeter = 2 * (height+width);
+   int area = height * width;
+   printf("Perimeter of the rectangle = %d inches\n", perimeter);
+   printf("Area of the rectangle = %d square inches\n", area);
+
 
   return 0;
 }
